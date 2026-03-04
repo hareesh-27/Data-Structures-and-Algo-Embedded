@@ -1,0 +1,1 @@
+Both brute and optimal
