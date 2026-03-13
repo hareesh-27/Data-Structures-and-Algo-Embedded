@@ -26,6 +26,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/hareesh-27/Array-and-strings-/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/hareesh-27/Array-and-strings-/tree/master/0904-fruit-into-baskets) |
 | [0922-sort-array-by-parity-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0922-sort-array-by-parity-ii) |
+| [0930-binary-subarrays-with-sum](https://github.com/hareesh-27/Array-and-strings-/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/hareesh-27/Array-and-strings-/tree/master/1004-max-consecutive-ones-iii) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/hareesh-27/Array-and-strings-/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/hareesh-27/Array-and-strings-/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
@@ -69,6 +70,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/hareesh-27/Array-and-strings-/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/hareesh-27/Array-and-strings-/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/hareesh-27/Array-and-strings-/tree/master/0904-fruit-into-baskets) |
+| [0930-binary-subarrays-with-sum](https://github.com/hareesh-27/Array-and-strings-/tree/master/0930-binary-subarrays-with-sum) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/hareesh-27/Array-and-strings-/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Divide and Conquer
 |  |
@@ -100,6 +102,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/hareesh-27/Array-and-strings-/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/hareesh-27/Array-and-strings-/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/hareesh-27/Array-and-strings-/tree/master/0904-fruit-into-baskets) |
+| [0930-binary-subarrays-with-sum](https://github.com/hareesh-27/Array-and-strings-/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/hareesh-27/Array-and-strings-/tree/master/1004-max-consecutive-ones-iii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/hareesh-27/Array-and-strings-/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/hareesh-27/Array-and-strings-/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
@@ -107,6 +110,7 @@
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/hareesh-27/Array-and-strings-/tree/master/0560-subarray-sum-equals-k) |
+| [0930-binary-subarrays-with-sum](https://github.com/hareesh-27/Array-and-strings-/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/hareesh-27/Array-and-strings-/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/hareesh-27/Array-and-strings-/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## String
