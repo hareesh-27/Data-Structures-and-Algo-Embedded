@@ -28,6 +28,7 @@
 | [0922-sort-array-by-parity-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0922-sort-array-by-parity-ii) |
 | [0930-binary-subarrays-with-sum](https://github.com/hareesh-27/Array-and-strings-/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/hareesh-27/Array-and-strings-/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/1248-count-number-of-nice-subarrays) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/hareesh-27/Array-and-strings-/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/hareesh-27/Array-and-strings-/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/hareesh-27/Array-and-strings-/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -38,6 +39,7 @@
 | [0048-rotate-image](https://github.com/hareesh-27/Array-and-strings-/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/hareesh-27/Array-and-strings-/tree/master/0268-missing-number) |
+| [1248-count-number-of-nice-subarrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/1248-count-number-of-nice-subarrays) |
 ## Two Pointers
 |  |
 | ------- |
@@ -71,6 +73,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/hareesh-27/Array-and-strings-/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/hareesh-27/Array-and-strings-/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/hareesh-27/Array-and-strings-/tree/master/0930-binary-subarrays-with-sum) |
+| [1248-count-number-of-nice-subarrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/hareesh-27/Array-and-strings-/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Divide and Conquer
 |  |
@@ -104,6 +107,7 @@
 | [0904-fruit-into-baskets](https://github.com/hareesh-27/Array-and-strings-/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/hareesh-27/Array-and-strings-/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/hareesh-27/Array-and-strings-/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/hareesh-27/Array-and-strings-/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/hareesh-27/Array-and-strings-/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Prefix Sum
@@ -112,6 +116,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/hareesh-27/Array-and-strings-/tree/master/0560-subarray-sum-equals-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/hareesh-27/Array-and-strings-/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/hareesh-27/Array-and-strings-/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/hareesh-27/Array-and-strings-/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## String
 |  |
