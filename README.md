@@ -25,6 +25,7 @@
 | [0455-assign-cookies](https://github.com/hareesh-27/Array-and-strings-/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/hareesh-27/Array-and-strings-/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/hareesh-27/Array-and-strings-/tree/master/0560-subarray-sum-equals-k) |
+| [0860-lemonade-change](https://github.com/hareesh-27/Array-and-strings-/tree/master/0860-lemonade-change) |
 | [0904-fruit-into-baskets](https://github.com/hareesh-27/Array-and-strings-/tree/master/0904-fruit-into-baskets) |
 | [0922-sort-array-by-parity-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0922-sort-array-by-parity-ii) |
 | [0930-binary-subarrays-with-sum](https://github.com/hareesh-27/Array-and-strings-/tree/master/0930-binary-subarrays-with-sum) |
@@ -153,4 +154,5 @@
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/hareesh-27/Array-and-strings-/tree/master/0455-assign-cookies) |
+| [0860-lemonade-change](https://github.com/hareesh-27/Array-and-strings-/tree/master/0860-lemonade-change) |
 <!---LeetCode Topics End-->
