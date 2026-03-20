@@ -158,4 +158,8 @@
 | [0055-jump-game](https://github.com/hareesh-27/Array-and-strings-/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/hareesh-27/Array-and-strings-/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/hareesh-27/Array-and-strings-/tree/master/0860-lemonade-change) |
+## Linked List
+|  |
+| ------- |
+| [0328-odd-even-linked-list](https://github.com/hareesh-27/Array-and-strings-/tree/master/0328-odd-even-linked-list) |
 <!---LeetCode Topics End-->
