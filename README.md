@@ -18,6 +18,7 @@
 | [0152-maximum-product-subarray](https://github.com/hareesh-27/Array-and-strings-/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/hareesh-27/Array-and-strings-/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0189-rotate-array) |
+| [0215-kth-largest-element-in-an-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0229-majority-element-ii) |
 | [0260-single-number-iii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/hareesh-27/Array-and-strings-/tree/master/0268-missing-number) |
@@ -60,6 +61,7 @@
 | ------- |
 | [0075-sort-colors](https://github.com/hareesh-27/Array-and-strings-/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/hareesh-27/Array-and-strings-/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/hareesh-27/Array-and-strings-/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/0349-intersection-of-two-arrays) |
@@ -86,6 +88,7 @@
 | ------- |
 | [0053-maximum-subarray](https://github.com/hareesh-27/Array-and-strings-/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/hareesh-27/Array-and-strings-/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0215-kth-largest-element-in-an-array) |
 ## Counting
 |  |
 | ------- |
@@ -201,4 +204,12 @@
 |  |
 | ------- |
 | [0700-search-in-a-binary-search-tree](https://github.com/hareesh-27/Array-and-strings-/tree/master/0700-search-in-a-binary-search-tree) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
