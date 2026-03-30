@@ -27,6 +27,7 @@
 | [0455-assign-cookies](https://github.com/hareesh-27/Array-and-strings-/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/hareesh-27/Array-and-strings-/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/hareesh-27/Array-and-strings-/tree/master/0560-subarray-sum-equals-k) |
+| [0724-find-pivot-index](https://github.com/hareesh-27/Array-and-strings-/tree/master/0724-find-pivot-index) |
 | [0860-lemonade-change](https://github.com/hareesh-27/Array-and-strings-/tree/master/0860-lemonade-change) |
 | [0904-fruit-into-baskets](https://github.com/hareesh-27/Array-and-strings-/tree/master/0904-fruit-into-baskets) |
 | [0922-sort-array-by-parity-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0922-sort-array-by-parity-ii) |
@@ -124,6 +125,7 @@
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/hareesh-27/Array-and-strings-/tree/master/0560-subarray-sum-equals-k) |
+| [0724-find-pivot-index](https://github.com/hareesh-27/Array-and-strings-/tree/master/0724-find-pivot-index) |
 | [0930-binary-subarrays-with-sum](https://github.com/hareesh-27/Array-and-strings-/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/hareesh-27/Array-and-strings-/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/1248-count-number-of-nice-subarrays) |
