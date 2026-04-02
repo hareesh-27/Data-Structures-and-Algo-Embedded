@@ -38,6 +38,7 @@
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/hareesh-27/Array-and-strings-/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1331-rank-transform-of-an-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/1331-rank-transform-of-an-array) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/hareesh-27/Array-and-strings-/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [1636-sort-array-by-increasing-frequency](https://github.com/hareesh-27/Array-and-strings-/tree/master/1636-sort-array-by-increasing-frequency) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/hareesh-27/Array-and-strings-/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Math
 |  |
@@ -73,6 +74,7 @@
 | [0658-find-k-closest-elements](https://github.com/hareesh-27/Array-and-strings-/tree/master/0658-find-k-closest-elements) |
 | [0922-sort-array-by-parity-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0922-sort-array-by-parity-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/1331-rank-transform-of-an-array) |
+| [1636-sort-array-by-increasing-frequency](https://github.com/hareesh-27/Array-and-strings-/tree/master/1636-sort-array-by-increasing-frequency) |
 ## Hash Table
 |  |
 | ------- |
@@ -90,6 +92,7 @@
 | [1248-count-number-of-nice-subarrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/1248-count-number-of-nice-subarrays) |
 | [1331-rank-transform-of-an-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/hareesh-27/Array-and-strings-/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1636-sort-array-by-increasing-frequency](https://github.com/hareesh-27/Array-and-strings-/tree/master/1636-sort-array-by-increasing-frequency) |
 ## Divide and Conquer
 |  |
 | ------- |
