@@ -17,6 +17,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/hareesh-27/Array-and-strings-/tree/master/0128-longest-consecutive-sequence) |
 | [0137-single-number-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0137-single-number-ii) |
 | [0152-maximum-product-subarray](https://github.com/hareesh-27/Array-and-strings-/tree/master/0152-maximum-product-subarray) |
+| [0162-find-peak-element](https://github.com/hareesh-27/Array-and-strings-/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/hareesh-27/Array-and-strings-/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0215-kth-largest-element-in-an-array) |
@@ -152,6 +153,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0162-find-peak-element](https://github.com/hareesh-27/Array-and-strings-/tree/master/0162-find-peak-element) |
 | [0222-count-complete-tree-nodes](https://github.com/hareesh-27/Array-and-strings-/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/hareesh-27/Array-and-strings-/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/0349-intersection-of-two-arrays) |
