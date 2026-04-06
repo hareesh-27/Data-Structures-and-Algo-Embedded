@@ -15,3 +15,44 @@ while (x == 0) {
     // It assumes x will always be 0 because nothing 
     // inside this loop changes it.
 }
+
+🔹 Case 1
+volatile int *x = 0;
+✅ Meaning:
+👉 Pointer to a volatile int
+
+Data (*x) is volatile
+Pointer (x) is normal
+
+🔹 What it means:
+Value at address can change anytime
+Compiler won’t optimize reads of *x
+
+✔️ You can change x normally
+✔️ Must always re-read *x
+---------------------------------------------------------------------------
+🔹 Case 2
+int *volatile x = 0;
+✅ Meaning:
+👉 Volatile pointer to int
+
+Data is normal
+Pointer (x) is volatile
+🔹 What it means:
+Address stored in x may change unexpectedly
+Compiler won’t optimize x
+
+✔️ *x is stable
+✔️ x itself can change anytime
+---------------------------------------------------------------------------
+🔹 Case 3
+volatile int *volatile x = 0;
+✅ Meaning:
+
+👉 Volatile pointer to volatile int
+
+Data is volatile
+Pointer is also volatile
+🔹 What it means:
+Address can change anytime
+Value at that address can also change anytime
