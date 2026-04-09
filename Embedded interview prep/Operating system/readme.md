@@ -1,1 +1,3 @@
-All OS concepts here
+Contents of the folder
+_____________________________________________________________________________________________________________
+1) 1st file contains the **defenition of OS** 
