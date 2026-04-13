@@ -21,9 +21,10 @@ Tech stuff
 - Finally stop bit **(logic 1)**
 
 <img width="1145" height="267" alt="image" src="https://github.com/user-attachments/assets/7eed115c-90f5-4ff6-860d-4edd0e23fdd5" />
-_____________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________
 
    **What is baud rate ?** - The speed at which data is transmitted
+   
    **Why baud rates are fixed ?** - Baud rates are not fixed, it is standardised like 9600 etc.
                               - Normally baud rate = clock divider/frequeny
                      `        - Devices have run on a fixed clock freq like 1MHz, 8MHz etc
