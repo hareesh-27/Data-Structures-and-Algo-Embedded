@@ -42,3 +42,40 @@ This happens when **2 devices** try to take control over the bus.
 
 - So, the device which sends **0** controls the line  
 - This is called **arbitration**
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## I2C Clock Stretching
+
+- Clock stretching is used when the **slave is not ready** to continue communication.
+
+![I2C Clock Stretching](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/I2C_clock_stretching.svg/1280px-I2C_clock_stretching.svg.png)
+
+- In I2C:
+  - Master generates the clock (**SCL**)  
+  - But slave can **hold SCL LOW**
+
+- Working:
+  - Master tries to make SCL HIGH  
+  - Slave keeps SCL LOW → clock is paused  
+  - Master must **wait**  
+  - Once slave releases SCL → communication continues  
+
+- Reason:
+  - Slave needs time to:
+    - Process data  
+    - Prepare next byte  
+    - Perform internal operations  
+
+- Important points:
+  - Only **SCL is stretched**, not SDA  
+  - Based on **wired AND logic**  
+    - If any device pulls LOW → line stays LOW  
+  - Master cannot force SCL HIGH  
+
+- Result:
+  - No data loss ✅  
+  - Synchronization maintained ✅  
+
+- In short:
+  - Slave temporarily **controls timing**
+
