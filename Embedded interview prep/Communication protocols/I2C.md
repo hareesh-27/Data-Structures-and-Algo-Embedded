@@ -1,4 +1,4 @@
-**Inter integrated circuit**
+## **Inter integrated circuit**
 
 - It has 2 lines SDA and SCL, serial data line and serial clock line respectively
 - These 2 lines are used for communication
