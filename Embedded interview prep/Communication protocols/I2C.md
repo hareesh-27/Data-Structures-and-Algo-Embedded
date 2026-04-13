@@ -33,10 +33,10 @@
   **I2C arbiteration**
     - This happens when **2 devices** tries to take control over the bus.
 
-    ![I2C Arbitration](https://github.com/user-attachments/assets/c596de12-b287-49ba-84ac-01c2887a5460)
+![I2C Arbitration](https://github.com/user-attachments/assets/c596de12-b287-49ba-84ac-01c2887a5460)
             
-     - Here 2 devices tries to control the bus.
-    - Before explaining I2C arbitertion, we need to remember that I2C is a **wired AND logic**
+    - Here 2 devices tries to control the bus.
+    - Before explaining I2C arbitertion, we need to remember that I2C is a wired AND logic
             - Initialyy both SDA and SCL is high. The thing is devices cannot pull them. They can pulled down or be floating
             - So it doesn'nt matter whether device a is floating or pulled down, if device B is pulled low -> the line becomes low **=>WIRED AND**
 
