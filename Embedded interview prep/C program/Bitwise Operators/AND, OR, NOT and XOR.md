@@ -1,10 +1,10 @@
 ## Bitwise AND
 Straight forward AND operation on each bits
-  - ex: 2 & 1
-    0 0 1 0
-    0 0 0 1
+ - ex: 2 & 1
+   0 0 1 0
+   0 0 0 1
    ---------
-    0 0 0 0
+   0 0 0 0
    ---------
 
   - The difference between logical and bitwise AND is that logical AND just cares about true or false ( 0 or not )
