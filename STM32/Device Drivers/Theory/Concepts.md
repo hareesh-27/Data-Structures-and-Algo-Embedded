@@ -4,24 +4,25 @@ First Let us understand the defenition of device drivers the lets understand why
 
 **Device drivers**
 It is the softare layer between your applocation and hardware
-  - In embedded systems : It is just the C code that talks directly to registers of hardware.
+
+- In embedded systems : It is just the C code that talks directly to registers of hardware.
 
 **Why device drivers are needed ?**
- - Abstraction       : You don't deal with registers, bits or hardware complexity
- - Portability       : Same code works on multiple boards(In our my case STM32 family)
- - Code organisation : Prevent messy codes/code readability
+
+- Abstraction       : You don't deal with registers, bits or hardware complexity  
+- Portability       : Same code works on multiple boards(In our my case STM32 family)  
+- Code organisation : Prevent messy codes/code readability  
 
 There are diff types of device drivers used in embedded programming. Here I use **bare metal register code**
 
-Device drivers provide abstraction over hardware, improve code organization by separating application and hardware logic, 
+Device drivers provide abstraction over hardware, improve code organization by separating application and hardware logic,  
 enable reusability and make systems easier to maintain. In some cases, they also improve portability across similar hardware platforms.
 
-------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 We'll see a small example from the LED blink code to get an idea of what we will be doing in device drivers
 
-**Actual code :**
-------------------
+## Actual code :
 
 ```c
 #include <stdint.h>
@@ -58,12 +59,32 @@ int main(void)
 
     while(1);
 }
+```
+
+Now,  
+We create LED.h  
+
+```c
+#ifndef LED_H
+#define LED_H
+
+#include <stdint.h>
+
+void LED_Init(void);
+void LED_On(void);
+void LED_Off(void);
+void LED_Toggle(void);
+
+#endif
+```
 
 This file tells: “These functions exist somewhere”
 
-Next,
-LED.c
-We move the register logic here
+Next,  
+LED.c  
+We move the register logic here  
+
+```c
 #include "led.h"
 
 /* Base addresses */
@@ -106,9 +127,13 @@ void LED_Toggle(void)
 {
     *pGpiodODRReg ^= (1 << 12);
 }
-Finally,
-main.c
-Here, main will become more simple
+```
+
+Finally,  
+main.c  
+Here, main will become more simple  
+
+```c
 #include "led.h"
 
 int main(void)
@@ -120,3 +145,4 @@ int main(void)
         LED_On();
     }
 }
+```
