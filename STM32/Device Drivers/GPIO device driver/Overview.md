@@ -1,96 +1,63 @@
-## 🧠 Driver Architecture Overview (STM32 GPIO)
+## 📁 Project Structure Overview
 
-To avoid confusion, we divide our code into **3 layers**:
+This project is divided into three main files, each representing a different layer of the driver design.
 
 ---
 
-### 🔹 1. stm.h → Hardware Layer
+### 🔹 stm.h → Hardware Layer
 
-👉 This file describes **WHAT exists in hardware**
+This file describes the **microcontroller hardware**.
 
 It contains:
-- Base addresses of peripherals  
-- Register structures  
+- Base addresses of peripherals (e.g., GPIOA, GPIOB)
+- Register structures that map to actual hardware registers
 
-Example:
-
-```c
-#define GPIOA_BASEADDR 0x40020000U
-
-typedef struct
-{
-    volatile uint32_t MODER;
-    volatile uint32_t OTYPER;
-} GPIO_RegDef;
-```
-
-👉 Think:  
-"Just tell me what hardware looks like"
-
-❗ No configuration logic  
-❗ No enums  
-❗ No functions  
+👉 It tells:  
+**what exists in hardware and how it is organized in memory**
 
 ---
 
-### 🔹 2. gpio.h → Driver Interface Layer
+### 🔹 gpio.h → Driver Interface Layer
 
-👉 This file defines HOW to use the hardware
+This file defines **how the user interacts with GPIO**.
 
 It contains:
+- Enums for configuration values (mode, speed, type, etc.)
+- Struct to hold complete GPIO pin configuration
+- Function declarations (GPIO_Init, GPIO_SetPin, etc.)
 
-- Configuration enums  
-- Data structures for GPIO config  
-- Function declarations (APIs)  
-
-Example:
-
-```c
-typedef enum
-{
-    GPIO_MODE_IN,
-    GPIO_MODE_OUT
-} GPIO_Mode_t;
-
-void GPIO_Init(GPIO_Handle_t *pGPIOHandle);
-```
-
-👉 Think:  
-"How should I configure and control GPIO?"
+👉 It tells:  
+**what values to use and what functions are available**
 
 ---
 
-### 🔹 3. gpio.c → Driver Implementation Layer
+### 🔹 gpio.c → Driver Implementation Layer
 
-👉 This file contains the actual logic
+This file contains the **actual logic**.
 
-It contains:
+It includes:
+- Definitions of all GPIO functions
+- Bit-level operations on registers (MODER, ODR, IDR, etc.)
 
-- Function definitions  
-- Register-level operations  
-
-Example:
-
-```c
-void GPIO_Init(GPIO_Handle_t *pGPIOHandle)
-{
-    GPIOA->MODER |= (1 << 10);
-}
-```
-
-👉 Think:  
-"How things actually work internally"
+👉 It does:  
+**the actual work of writing and reading hardware registers**
 
 ---
 
-### 🔁 How all 3 work together
+## 🔁 Overall Flow
 
 ```
-User Code
-   ↓
-gpio.h   (interface)
-   ↓
-gpio.c   (implementation)
-   ↓
-stm.h    (hardware registers)
+main.c → uses gpio.h (interface)
+→ calls functions in gpio.c
+→ which access registers defined in stm.h
 ```
+
+---
+
+## ⚡ Final Understanding
+
+- `stm.h`  → hardware description  
+- `gpio.h` → user interface  
+- `gpio.c` → implementation logic  
+
+👉 This separation makes the code clean, modular, and scalable.
